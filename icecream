@@ -25,7 +25,10 @@
                     <a href="#sabores-favoritos">Favoritos</a>
                 </li>
                 <li>
-                    <a href="#sobre-nosotros">Nosotros</a>
+                <a href="/nosotros.html"> Nosotros</a>
+                </li>
+                <li>
+                    <a href="#sobre-nosotros">Nosotros(probando)</a>
                 </li>
             </ul>
         </nav>
