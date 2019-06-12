@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Helados Tropical</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:400,500,700,900&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i&amp;display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/de90cd1ea7.js"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" />    
+  </head>
+  <body>
+    <aside>
+      <p id="color">Empresa especialmente encargada de la fabricacion y venta de helados artesanales</p>
+      <p>
+        Para el contacto con nosotros puede mandarnos un
+        <a href="mailto:programan2@gmail.com"> mail </a>
+        o contactarnos por <a href="https://wa.me/430649849"> whatsapp </a>
+      </p>
+      </aside>
+  </body>
+</html>
