@@ -1,0 +1,313 @@
+/* 
+    Amarillo:#FFF78F
+    Azul Claro:#22B9CA
+    Azul osuro:#0C99C1
+    Rosa:#FDBDB3
+
+    Fuentes:
+
+    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Arsenal', sans-serif;
+*/
+
+body{
+    margin:0;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.ubicacion{
+    font-size: 18px;
+    height: 2.3em;
+    background: #111111;
+    color: white;
+    text-align: center;
+    line-height: 2.3em;
+    font-weight: 500;
+}
+
+.nav-var{
+    background-color: #0c9ac1;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3em;
+    position: sticky;
+    top: 0;
+}
+
+.nav-var .marca{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+}
+
+.nav-var .menu{
+    height: 100%;
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-var a{
+    text-decoration: none;
+    color: white;
+    padding: 0 .7em;
+    font-weight: bolder;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    background: #FFF78F;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hero-text{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.hero-text h1{
+    font-size: 6em;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: .2em;
+}
+
+.hero-text h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.favoritos{
+    padding: 5% 12%;
+}
+
+.favoritos h3{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+}
+
+.decoration-line{
+    background:black;
+    width: 100px;
+    height: 2px;
+    margin: 2% auto;
+}
+
+.container-favoritos{
+    display: grid;
+    justify-content: center;
+    grid-template: repeat(4,auto)/repeat(3,minmax(100px,200px));
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.favorito-title{
+    grid-column: 1/-1;
+}
+
+.favorito-sabor{
+    margin: 0;
+    width: 100%;
+    vertical-align: top;
+}
+
+.favorito-sabor img{
+    margin:0;
+    width: 100%;
+}
+
+.favorito-sabor h4{
+    text-align: center;
+    margin: 1em 0 .5em;
+    text-transform: uppercase;
+}
+
+.favorito-sabor .decoration-line{
+    width: 70%;
+    background: #0C99C1;
+}
+
+.favorito-sabor p{
+    font-size: .7em;
+    text-align: center;
+    padding: 0 12%;
+}
+
+.nosotros{
+    width: 100%;
+}
+
+.container-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 0;
+    background-color: #ffbfb3;
+    justify-items: center;
+}
+
+.container-nosotros img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: cover;
+    object-fit: cover;
+}
+
+.nosotros-text{
+    text-align: center;
+    padding: 6em 10vw;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nosotros-text h3{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 40px;
+    margin-bottom: .5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.images-final{
+    height: auto;
+    background: #0C99C1;
+}
+
+.images-final h1{
+    padding: 1em 0;
+    color: white;
+    font-size: 6em;
+    font-family: 'Permanent Marker', cursive;
+    justify-content: center;
+    display: flex;
+}
+
+.image-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.container-images{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    position: relative
+}
+
+.item-images{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.item-images video{
+    height: 100%;
+    object-fit: cover;
+}
+
+.contacto{
+    background: black;
+}
+
+.contacto-container{
+    display: flex;
+    background: black;
+    color:white;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding: 4em;
+    padding-bottom: 2em;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.contacto-item{
+    width: 200px;
+    margin-bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+.contacto-item h4{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.contacto-item p{
+    font-size: .6em;
+}
+
+.contacto-item .decoration-line{
+    background: white;
+    margin: .3em auto .5em;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 3em;
+    padding-bottom: 2em;
+}
+
+.redes-sociales i{
+    padding: 0 .4em;
+}
+
+footer{
+    background: #0C99C1;
+    margin: 0;
+    color: white;
+}
+
+footer p{
+    font-size: 14px;
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
