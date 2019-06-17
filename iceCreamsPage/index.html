@@ -12,21 +12,24 @@
     <script src="https://kit.fontawesome.com/de90cd1ea7.js"></script>
 </head>
 <body>
+    <i class="fas fa-bars burger-button"></i>
     <header>
         <div class="ubicacion" id="home">
-            San Francisco, Cordoba | Todos los dias 11AM-11PM
+            <p class="u1">Francisco, Cordoba | Todos los dias 11AM-11PM</p>
+            <p class="u2">Francisco, Cordoba<br>Todos los dias 11AM-11PM</p>
         </div>
-        <nav class="nav-var sticky">
+        
+        <nav class="nav-bar">
             <span class="marca">Tropical</span>
             <ul class="menu">
                 <li>
-                    <a href="#home">Inicio</a>
+                    <a id="eInicio" href="#home">Inicio</a>
                 </li>
                 <li>
-                    <a href="#sabores-favoritos">Favoritos</a>
+                    <a id="eFavoritos" href="#sabores-favoritos">Favoritos</a>
                 </li>
                 <li>
-                    <a href="#sobre-nosotros">Nosotros</a>
+                    <a id="eNosotros" href="#sobre-nosotros">Nosotros</a>
                 </li>
             </ul>
         </nav>
@@ -133,7 +136,7 @@
             </div>
             <div class="favorito-sabor">
                 <img src="img/leche-con-nuez.jpg" alt="">
-                <h4>Leche con nuez/h4>
+                <h4>Leche con nuez</h4>
                 <div class="decoration-line"></div>
                 <p>
                     Esta es la descripcion de un sabor que le gusta mucho a nuestros clientes
@@ -175,9 +178,6 @@
             <span class="image-overlay"></span>
         </div>
     </section>
-    <section class="fotos">
-
-    </section>
     <section class="contacto">
         <div class="contacto-container">
             <div class="contacto-item">
@@ -211,5 +211,6 @@
             <a href="https://twitter.com/santidalmasso">@santidalmasso</a>
         </p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
