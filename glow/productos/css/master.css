@@ -225,9 +225,11 @@ text-align: center;
 .contacto .medios h4{
 	text-align: center;
 	margin: 2%;
+	font-size: 20px;
 }
 .contacto .text{
 	padding: 20px;
+	font-size: 20px;
 }
 .visita h1{
 	text-align: center;
