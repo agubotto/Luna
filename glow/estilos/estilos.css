@@ -15,6 +15,7 @@ body{
 }
 .fondo img{
 	width:100%;
+	display:flex;
 }
 .menu{
 	height: 100%;
