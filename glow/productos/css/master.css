@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+/* font-family: 'Swanky and Moo Moo', cursive;
+ font-family: 'Josefin Sans', sans-serif;*/
+/* font-family: 'Anton', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Lobster', cursive;*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+body{
+	 margin:0;
+	font-family: 'Arvo', serif;
+}
+.fondo img{
+  width: 100%;
+  display:flex;
+}
+.menu{
+	height: 100%;
+    display: flex;
+    text-align: center;
+    list-style: none;
+	 font-family: 'Josefin Sans', sans-serif
+}
+ul,ol{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.navegador a{
+    text-decoration: none;
+    color: white;
+    padding: 0 .7em;
+    font-weight: bolder;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navegador{
+   background-color: #4396BF;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3em;
+    flex:1;
+}
+.navegador .menu{
+	height: 100%;
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+.ubicacion{
+    font-size: 18px;
+    height: 2.3em;
+    background: #111111;
+    color: white;
+    text-align: center;
+    line-height: 2.3em;
+    font-weight: 500;
+}
+
+.ubicacion p{
+    margin: 0;
+}
+.buzo{
+	padding: 5% 5%;
+}
+.jeans{
+	padding: 5% 5%;
+}
+.ubicacion .u2{
+    display: none;
+}
+.b{
+	padding: 0px;
+	border-radius: 20px;
+	transition: transform 0.3s ease-in-out 0.1s;
+	box-shadow: 70px 60px 60px 21px;
+	background: rgba(83,83,83,1.00);
+	color: white;
+}
+.r{
+	padding: 0px;
+	border-radius: 20px;
+	transition: transform 0.3s ease-in-out 0.1s;
+	box-shadow: 70px 60px 60px 21px;
+	background: rgba(83,83,83,1.00);
+	color: white;
+}
+.c{
+	padding: 0px;
+	border-radius: 20px;
+	transition: transform 0.3s ease-in-out 0.1s;
+	box-shadow: 70px 60px 60px 21px;
+	background: rgba(83,83,83,1.00);
+	color: white;
+}
+.j{
+	padding: 0px;
+	border-radius: 20px;
+	transition: transform 0.3s ease-in-out 0.1s;
+	box-shadow: 70px 60px 60px 21px;
+	background: rgba(83,83,83,1.00);
+	color: white;
+}
+.nop{
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  background-color: lightblue;
+  padding: 30px;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+
+.nprod h1{
+	text-align: center;
+	padding: 30px 10px;
+	font-size: 50px;
+	background: black;
+	color:white;
+	font-family:'Lobster', cursive;
+}
+.rprod h1{
+	text-align: center;
+	padding: 30px 10px;
+	font-size: 50px;
+	background: black;
+	color:white;
+	font-family:'Lobster', cursive;
+}
+.cprod h1{
+	text-align: center;
+	padding: 30px 10px;
+	font-size: 50px;
+	background: black;
+	color:white;
+	font-family:'Lobster', cursive;
+}
+.jprod h1{
+text-align: center;
+	padding: 30px 10px;
+	font-size: 50px;
+	background: black;
+	color:white;
+	font-family:'Lobster', cursive;
+	width: 100%
+
+}
+
+.bprod{
+	display: grid;
+    justify-content: center;
+    grid-template: repeat(3,auto)/repeat(2,minmax(100px,200px));
+    grid-column-gap: 130px;
+    grid-row-gap: 50px;
+    margin-bottom: 50px;
+	text-align: center;
+	padding: 30px 0px;
+}
+.jemp{
+	display: grid;
+    justify-content: center;
+    grid-template: repeat(3,auto)/repeat(2,minmax(100px,200px));
+    grid-column-gap: 130px;
+    grid-row-gap: 50px;
+    margin-bottom: 50px;
+	text-align: center;
+	padding: 30px 0px;
+
+}
+.chod{
+	display: grid;
+    justify-content: center;
+    grid-template: repeat(3,auto)/repeat(2,minmax(100px,200px));
+    grid-column-gap: 130px;
+    grid-row-gap: 50px;
+    margin-bottom: 50px;
+	text-align: center;
+	padding: 30px 0px;
+}
+.remp{
+	display: grid;
+    justify-content: center;
+    grid-template: repeat(3,auto)/repeat(2,minmax(100px,200px));
+    grid-column-gap: 130px;
+    grid-row-gap: 50px;
+    margin-bottom: 50px;
+	text-align: center;
+	padding: 30px 0px;
+}
+/*----------------------------- contacto ----------------------------*/
+.contacto h1{
+	font-family:'Lobster', cursive;
+	font-size: 50px;
+	background: black;
+	color:white;
+	padding: 30px;
+	text-align: center;
+}
+
+.contacto .medios{
+	display:flex;
+	margin: 2% 35%;
+	padding: 2%;
+	align-content: center;
+  justify-content: center;
+}
+.contacto .redes{
+	padding: 45px;
+	align-items: center;
+	display:flex;
+  justify-content: center;
+	margin: 0px 550px;
+}
+.contacto .medios h4{
+	text-align: center;
+	margin: 2%;
+}
+.contacto .text{
+	padding: 20px;
+}
+.visita h1{
+	text-align: center;
+	padding: 30px 10px;
+	font-size: 50px;
+	background: black;
+	color:white;
+	font-family:'Lobster', cursive;
+}
+.visita .mapa iframe{
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	margin: 2% 38%;
+}
+footer{
+	background:rgba(0,0,0,1.00);
+    margin: 0;
+    color: white;
+}
+footer p{
+	font-size: 14px;
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+}
+footer a{
+	text-decoration: none;
+    color: white;
+}
