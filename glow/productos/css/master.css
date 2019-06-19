@@ -41,6 +41,7 @@ h1,h2,h3,h4,h5,h6{
     height: 100%;
     display: flex;
     align-items: center;
+	font-size: 20px;
 }
 .navegador{
    background-color: #4396BF;
@@ -225,11 +226,11 @@ text-align: center;
 .contacto .medios h4{
 	text-align: center;
 	margin: 2%;
-	font-size: 20px;
+	font-size: 30px;
 }
 .contacto .text{
 	padding: 20px;
-	font-size: 20px;
+	font-size: 30px;
 }
 .visita h1{
 	text-align: center;
