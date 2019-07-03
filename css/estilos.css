@@ -1,9 +1,44 @@
-.helados{
+body{
+    margin: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    gap: 10px;
+}
+
+.page{
+    grid-row-end: span 1;
+    border-radius: 7px;
+    transition: .3s;
+    overflow: hidden;
     display: flex;
-    width: 200px;
+    justify-content: center;
+    align-items: center;
     height: 300px;
+    border: 1px solid black;
+}
+
+.page img{
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.page:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.page.ice-cream{
     background-color: aquamarine;
-    background-image: url(https://images.vexels.com/media/users/3/151795/isolated/preview/930c5f5090defc519e440c294be3c84d-bola-de-helado-en-cono-by-vexels.png);
-    background-size: cover;
-    background-position: center;
+}
+
+.page.glow{
+    background-color: chocolate;
+}
+
+.page.travels img{
+    object-fit: fill;
 }
