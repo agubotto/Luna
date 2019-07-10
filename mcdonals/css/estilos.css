@@ -1,0 +1,199 @@
+.img-inicial img{
+	width:100%;
+	display: flex;
+}
+.barra1{
+ 	 background: #f0c43f;
+    height: 6px;
+    top: 0;
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+}
+.navegador{
+	display: flex;
+	flex: 1;
+	background-color: rgba(232,232,232,1.00);
+	height: 55px;
+	align-content: flex-end;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+.navegador .menu{
+	height: 100%;
+    display: flex;
+    text-align: center;
+    list-style: none;
+	margin: 0px auto;
+	border-bottom: 2px solid #7b7b7b
+}
+.navegador .menu a{
+	text-decoration: none;
+    color: rgba(0,0,0,1.00);
+    padding: 18px .7em;
+    font-weight: bolder;
+	margin: 0px auto;
+	border-left: 1px solid #bbbbbf;
+}
+.logotipo{
+	float: left;
+    position: absolute;
+}
+.logotipo a{
+	color: #337ab7;
+    text-decoration: none;
+}
+.navegador .menu .bloc{
+	width: 3px;
+	background-color: rgba(192,192,192,1.00);
+	
+}
+.img-inicial{
+	margin: 0px;
+}
+.barra2{
+	background: #f0c43f;
+    width: auto;
+    height: 6px;
+}
+.princ{
+	background-image:url(../img/preview.jpg);
+}
+.princ h1{
+	padding: 5% 15%;
+
+}
+.cont-princ{
+	display: grid;
+	justify-content: center;
+	grid-template: repeat(2,auto)/repeat(2,minmax(400px,100px));
+	grid-column-gap: 150px;
+	grid-row-gap: 50px;
+	margin-bottom: 50px;
+	align-content: center;
+	}
+.princ h1{
+	font-family:'Akzidenz Grotesk BoldCn';
+	text-align: center;
+	font-size: 45px;
+	color:#404140;
+	margin: 0px 0 40px;
+	
+}
+.cont-princ img{
+	 box-shadow: 0 15px 20px -8px;
+	color: #000;
+}
+
+.cont-princ h2{
+	text-align: center;
+	font-size: 30px;
+	align-items: center;
+}
+.cont-princ h5{
+	font-size: 20px;
+	width: auto;
+}
+.princ .cont-princ .barrahor{
+	height: 10px;
+	background-color:rgba(118,118,118,0.89);
+	display: inline-grid;
+	width: 500px;
+}
+.princ .cont-princ .barrahor:hover{
+	background-color: #f0c43f;
+}
+.princ .cont-princ .barravert{
+	width: 2px;
+	height: 100%;
+	background-color: rgba(118,118,118,0.79);;
+	display:flex;
+	margin:0px;
+	align-content: center;
+	float: left;
+	justify-content: center;
+}
+.footer{
+	border-top: 1px solid #000;
+	bot:0;
+}
+.fin{
+	padding: 35px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.ig{
+	float: right;
+	padding: 0 16px;
+}
+.fot{
+	top: 50%;
+	position: absolute;
+	transform: translateY(-50%);
+}
+.redes{
+	float: left;
+	font-family: 'Akzidenz Grotesk BoldCn';
+	border-right: 2px solid #000;
+	color: #000;
+	font-size: 24px;
+	line-height: 23px;
+	padding: 0 10px;
+}
+.redes a{
+	color: #000000;
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+.sociales{
+	float:right;
+    margin: -23px;
+
+	
+}
+.sociales a{
+	    color: #337ab7;
+    text-decoration: none;
+}
+.imgs{
+	border: 0;
+	width: 50px;
+	vertical-align: middle;
+}
+.footerbot{
+	    background-color: #000;
+    font-family: 'Akzidenz Grotesk LightCn';
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+.bot-cont{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.izq{
+	float: left;
+    padding-right: 5px;
+}
+.politics{
+	display: inline-block;
+    border-left: 1px solid #fff;
+    padding-left: 5px;
+    line-height: 20px;
+}
+.politics a{
+	color:white;
+}
+
+.poli{
+	display: inline-block;
+    border-left: 1px solid #fff;
+    padding-left: 5px;
+    line-height: 20px;
+}
+.poli a{
+	color:white;
+}
