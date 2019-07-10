@@ -10,38 +10,90 @@
     position: absolute;
     width: 100%;
 }
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+
+}
+
 .navegador{
-	display: flex;
-	flex: 1;
-	background-color: rgba(232,232,232,1.00);
-	height: 55px;
-	align-content: flex-end;
-    justify-content: space-between;
-    padding: 0 3em;
-}
-.navegador .menu{
-	height: 100%;
-    display: flex;
-    text-align: center;
-    list-style: none;
-	margin: 0px auto;
-	border-bottom: 2px solid #7b7b7b
-}
-.navegador .menu a{
-	text-decoration: none;
-    color: rgba(0,0,0,1.00);
-    padding: 18px .7em;
-    font-weight: bolder;
-	margin: 0px auto;
-	border-left: 1px solid #bbbbbf;
-}
-.logotipo{
 	float: left;
-    position: absolute;
+	width: 100%;
+	border-bottom: 2px solid #7b7b7b;
+
+	
 }
-.logotipo a{
-	color: #337ab7;
+.menucont{
+	max-height: 60px;
+    width: 830px;
+    /*float: left;*/
+    text-align: center;
+	margin: 0 auto;
+	
+}
+.menu{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: right;
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 55px;
+	 padding: 11px 0;
+	line-height: auto;
+	
+}
+.c2{
+	font-weight: bolder;
+	text-align: center;
+	display: inline-block;
+   	border-left: 1px solid #bbbbbf;
+    height: 55px;
     text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    color: #414141;
+    text-transform: uppercase;
+    cursor: pointer;
+	padding: 18px 0;
+	padding: 0px 10px;
+	/*vertical-align: middle;*/
+}
+.c1{
+	font-weight: bolder;
+	text-align: center;
+	display: inline-block;
+   	border-left: 1px solid #bbbbbf;
+    height: 55px;
+    padding: 18px 0;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    color: #414141;
+    text-transform: uppercase;
+    cursor: pointer;
+	padding: 0px 10px;
+	/*vertical-align: middle;*/
+}
+
+.c2 a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	
+}
+
+.logotipo{
+	margin: 0 auto;
+	float: left;
+	position: relative;
+}
+
+.logo{
+	position: absolute;
+	float: right;
 }
 .navegador .menu .bloc{
 	width: 3px;
