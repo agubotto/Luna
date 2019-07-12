@@ -166,3 +166,7 @@ h5.price {
 	color: white;
 	background: black;
 }
+a.fb-ic.fb {
+    border-left: 3px solid whitesmoke;
+    padding-left: 30px;
+}

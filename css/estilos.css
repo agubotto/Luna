@@ -1,10 +1,12 @@
 html,body{
     margin: 0;
     padding:0;
+    width: auto;
+    height: auto;
     
 }
 body{
-    background:url("https://images2.alphacoders.com/191/191502.jpg");
+   background:url("https://images2.alphacoders.com/191/191502.jpg");
     margin: 0;
     height: -webkit-fill-available;
     background-position: center;
@@ -48,7 +50,7 @@ img.gridimg{
     background:whitesmoke;
 }
 .row{
-    margin: 100px auto;
+    flex-wrap: nowrap !important;
     opacity: .85;
     justify-content: center;
     vertical-align: middle;
@@ -68,11 +70,16 @@ img.gridimg{
 footer{
     bottom:0;
     width:100%;
-    position: fixed;
+    position: absolute;
 }
 .footer-copyright.text-center{
     background: black;
 }
 .col-sm-12.py-5 {
-    margin-left: 310px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.m-auto{
+    padding-top: 50px; 
 }
