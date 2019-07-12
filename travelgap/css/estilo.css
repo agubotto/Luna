@@ -79,7 +79,7 @@ img.text {
 }
 .items{
 	float:left;
-	margin-left: 150px;
+	margin-left: 250px;
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
@@ -88,7 +88,6 @@ img.text {
 	background-color: white;
 	margin-bottom: 18px;
 	box-shadow: 1px 1px 10px black;
-	width: 950px;
 }
 .items img{
 	width: 400px;
