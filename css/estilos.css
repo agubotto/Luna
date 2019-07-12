@@ -1,44 +1,78 @@
+html,body{
+    margin: 0;
+    padding:0;
+    
+}
 body{
-    margin: 20px;
+    background:url("https://images2.alphacoders.com/191/191502.jpg");
+    margin: 0;
+    height: -webkit-fill-available;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
+h1.text-center.text-uppercase.mt-4{
+    font-weight: bold;
+    color:black;
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
-    justify-content: center;
-    gap: 10px;
+    text-shadow: 2px 2px 20px white;
 }
-
-.page{
-    grid-row-end: span 1;
-    border-radius: 7px;
+h1.text-center :hover{
+    color: whitesmoke;
+}
+img.gridimg{
+    height: 150px;
+    width: 150px;
+}
+.page {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
     transition: .3s;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    border: 1px solid black;
+    box-shadow: 1px 1px 20px white;
+    border-radius: 5px;
 }
-
-.page img{
-    object-fit: cover;
-    border-radius: 7px;
-}
-
 .page:hover{
-    transform: scale(1.05);
-    cursor: pointer;
+    transform: scale(1.1);
+    background: black;
 }
-
-.page.ice-cream{
-    background-color: aquamarine;
+.barra{
+    height: 6px;
+    margin: 0 auto;
+    background: black;
+    max-width: 500px;
 }
-
-.page.glow{
-    background-color: chocolate;
+.barra:hover{
+    background:whitesmoke;
 }
-
-.page.travels img{
-    object-fit: fill;
+.row{
+    margin: 100px auto;
+    opacity: .85;
+    justify-content: center;
+    vertical-align: middle;
+   
+}
+.row:hover{
+    opacity: 1;
+}
+.navbar{
+    box-shadow: 1px 1px 10px #000000;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+.nav-item{
+    text-shadow: 1px 1px 3px white;
+}
+footer{
+    bottom:0;
+    width:100%;
+    position: fixed;
+}
+.footer-copyright.text-center{
+    background: black;
+}
+.col-sm-12.py-5 {
+    margin-left: 310px;
 }
