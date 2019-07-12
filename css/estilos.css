@@ -69,6 +69,7 @@ img.gridimg{
 }
 footer{
     bottom:0;
+    /*border-top: 1px solid white;*/
     width:100%;
     position: absolute;
 }
@@ -82,4 +83,9 @@ footer{
 }
 .m-auto{
     padding-top: 50px; 
+}
+h1.text-center.text-uppercase.font-weight-bold.font-size-30.mt-10 {
+    font-size: 32px;
+    border-bottom: 2px solid whitesmoke;
+    background: radial-gradient(black, transparent);
 }
